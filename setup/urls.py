@@ -28,4 +28,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls) ),
     path('doc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+    #path('doc2/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
 ]
