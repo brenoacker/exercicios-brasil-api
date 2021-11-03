@@ -70,7 +70,7 @@ while k < len(regioes):
     cont_regiao[regioes[k]] += 1
 
     k += 1
-
+ 
 
 dicionario_json3 = {}
 dicionario_json4 = {}
